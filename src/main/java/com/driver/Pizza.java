@@ -17,7 +17,7 @@ public class Pizza {
         // your code goes here
         if(isVeg){
             this.price=300;
-            this.toppings=10;
+            this.toppings=70;
         }else{
             this.price=400;
             this.toppings=120;
@@ -42,7 +42,7 @@ public class Pizza {
         // your code goes here
         if(!this.isToppingAdded){
             this.isToppingAdded=true;
-            this.price+=this.cheese;
+            this.price+=this.toppings;
         }
     }
 
